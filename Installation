@@ -1,0 +1,12 @@
+Download Flutter SDK, unzip it to a location (prefer the path without space)
+navigate to flutter > Run flutter_console windows batch file. If successull. copy path of flutter > bin and add it to environmental
+variable path
+Execute 'flutter' command from CMD.
+
+Android Studio is required. (for Android Dev)
+XCode for iOS Dev.
+
+Commands:
+-----------------------------------------------------------------
+Create App:               flutter create AppName
+
