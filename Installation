@@ -8,6 +8,10 @@ Execute 'flutter' command from CMD.
 Android Studio is required. (for Android Dev)
 XCode for iOS Dev.
 
+download and install visual studio code
+and then install extension flutter
+copy this url to marketplace in VS Code : https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter
+
 Commands:
 -----------------------------------------------------------------
 Check installation        flutter doctor
