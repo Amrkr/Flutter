@@ -3,10 +3,14 @@ navigate to flutter > Run flutter_console windows batch file. If successull. cop
 variable path
 Execute 'flutter' command from CMD.
 
+
+
 Android Studio is required. (for Android Dev)
 XCode for iOS Dev.
 
 Commands:
 -----------------------------------------------------------------
+Check installation        flutter doctor
+accept android licenses   flutter doctor --android-licenses
 Create App:               flutter create AppName
 
