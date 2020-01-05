@@ -1,0 +1,47 @@
+Data Types:
+
+int                 : 1
+num, double         : 1.1
+String              : 'Hello'  "Hello"
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+double addNumber(double num1, num num2){
+  //print(num1+num2);
+  return num1 + num2;
+}
+
+class Person {
+  String name = 'Max';
+  int age = 30;
+}
+
+void main() {
+  /*for (int i = 0; i < 5; i++) {
+    print('hello ${i + 1}');
+  }*/
+  
+  var firstResult = addNumber(1, 1);
+  double result2 = addNumber(2, 4.6);
+  String name = "Name1",
+          name2 = 'Name2';
+  
+  
+  print(addNumber(1, 2.3));
+  print("Hello");
+  
+  //Object creation
+  var p1 = new Person();
+  var p2 = Person();
+  
+  print (p2);
+  print(p2.name);
+  print(p2.age);
+  
+  p1.name= 'Amar';
+  print(p1.name);
+}
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
