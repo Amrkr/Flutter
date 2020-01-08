@@ -121,6 +121,25 @@ void main() {
   print(p1.name);
 }
 
-//////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////// Functions
+//Named
+void answerQuestion(){
+    print('Answer Chosen !!');
+  }
+
+
+//Anonymous
+() => print('Answer 2 Chosen!!')
+
+//Anonymous
+
+() {
+      //other code
+      print('Answer 3 chosen!!');
+   }
+   
+NOTE: append () to execute while declaring.
+
+
 
 
