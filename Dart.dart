@@ -47,7 +47,7 @@ void main() {
 
 
 
-//////////////////////////////////////////////////////////////////////// Constructor
+//////////////////////////////////////////////////////////////////////// Constructor, Named constructor
 class Person {
   String name;
   int age;
@@ -55,6 +55,11 @@ class Person {
   Person(String inputName, int age){
     name = inputName;
     this.age = age;
+  }
+  
+  //Named constructor
+  Person.veryOld(this.name){
+    age = 60;
   }
 }
 
@@ -70,6 +75,10 @@ void main() {
   
   p1.name= 'Amar';
   print(p1.name);
+  
+  var p3 = Person.veryOld('Amar');
+  print(p3.name);
+  print(p3.age);
 }
 
 ////////////////////////////////////////////////////////// Named parameters
