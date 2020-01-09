@@ -141,5 +141,20 @@ void answerQuestion(){
 NOTE: append () to execute while declaring.
 
 
+//////////////////////////////////////////// Private access modifier
+To make anything private prefix '_' 
 
+example:
+var _questionIndex = 0;
+
+  /* button click functions. Private function */
+  void _answerQuestion(){
+    setState(() {
+      _questionIndex += 1;
+    });
+    
+    print(_questionIndex);
+  }
+  
+//////////////////////////////////////////////////////////////////////   
 
