@@ -17,4 +17,5 @@ Commands:
 Check installation        flutter doctor
 accept android licenses   flutter doctor --android-licenses
 Create App:               flutter create AppName
+clean the cache:          flutter clean       //from project root dir
 
