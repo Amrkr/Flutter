@@ -150,7 +150,7 @@ void answerQuestion(){
 NOTE: append () to execute while declaring.
 
 
-//////////////////////////////////////////// Private access modifier
+/////////////////////////////////////////////////////// Private access modifier
 To make anything private prefix '_' 
 
 example:
@@ -165,5 +165,26 @@ var _questionIndex = 0;
     print(_questionIndex);
   }
   
-//////////////////////////////////////////////////////////////////////   
+////////////////////////////////////////////////////////////  MAP, LIST, explode MAP
+var questions = [
+      {'questionText': 'What\'s your favorite color?', 'answers': ['Black', 'Red', 'Green', 'White']},
+      {'questionText': 'What\'s your favorite animal?', 'answers': ['Rabbit', 'Lion', 'Elephant', 'Tiger']},
+      {'questionText': 'What\'s your favorite instructor?', 'answers': ['Max', 'Amar', 'Amit', 'Max']},
+    ];
+
+...(questions[_questionIndex]['answers'] as List<String>).map((answer){
+              return Answer(_answerQuestion, answer);
+            }).toList()
+  
+/////////////////////////////////////////////////////////// FINAL & CONST & VAR
+  const is compile time constant.
+  final is runtime constant.
+  var can hold const value also.  
+
+  var dummy = const ['Amar'];
+  dummy.add('Kumar'); //Not allowed
+  dummy = ['New', 'List']; //allowed
+
+//////////////////////////////////////////////////////////
+  
 
